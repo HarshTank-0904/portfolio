@@ -114,7 +114,7 @@ html::-webkit-scrollbar-thumb{
     }
     .logo{
       left: 50%;
-      margin-top: 2rem;
+      margin-top: 3rem;
     }
     .navbar a,.navbar .menu-icon{
         display: block;
