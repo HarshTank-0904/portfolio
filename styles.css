@@ -42,10 +42,17 @@ html::-webkit-scrollbar-thumb{
 .topnav {
     overflow: hidden;
   }
-
   .topnav .icon {
     display: none;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin-right: 7rem;
+    margin-top: 1rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
   }
+
 .header{
     position: fixed;
     top: 0;
@@ -65,12 +72,23 @@ html::-webkit-scrollbar-thumb{
     font-weight: 800;
     cursor: pointer;
     transition: 0.5s ease;
-    position: s;
+    position: fixed;
+    top: -2%;
+    left: 0;
+    width: 100%;
+    padding: 3rem 9%;
+    background-color: transparent;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    left: 70%;
 }
 .logo:hover{
     transform: scale(1.1);
 }
 .navbar a{
+    margin-top: 2rem;
     display: inline;
     font-size: 1.5rem;
     color: var(--text-color);
@@ -93,6 +111,10 @@ html::-webkit-scrollbar-thumb{
 
     .navbar.active{
         display: block;
+    }
+    .logo{
+      left: 50%;
+      margin-top: 2rem;
     }
     .navbar a,.navbar .menu-icon{
         display: block;
